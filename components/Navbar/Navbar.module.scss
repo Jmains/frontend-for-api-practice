@@ -1,0 +1,23 @@
+.nav {
+  background: black;
+  color: white;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 110, 255);
+}
+
+.nav__avatar {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
